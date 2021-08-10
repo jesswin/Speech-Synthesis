@@ -1,0 +1,69 @@
+.main-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  /* width: 60%; */
+  height: 100vh;
+  /* the full height of browser was not taken, so used 100vh to take the full height */
+}
+
+.head {
+  display: flex;
+  width: 60%; 
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+
+.main-head span {
+  font-size: 1.5rem;
+  color: aquamarine;
+}
+
+
+
+.main-head textarea {
+  background-color: #334d5c;
+  border: 2px solid aquamarine;
+  border-radius: 0.5rem;
+  color: grey;
+  text-indent: 3px;
+  font-size: 0.8rem;
+  width: 50%;
+}
+
+.main-head textarea:focus {
+  outline: none;
+  border: 3px solid yellow;
+  border-radius: 0.7rem;
+  color: yellow;
+}
+
+.main-head button {
+  margin-top: 1rem;
+  border-radius: 0.4rem;
+  height: 2rem;
+  width: 4.5rem;
+  border: none;
+  background-color: aquamarine;
+  font-size: 0.8rem;
+}
+
+.main-head button:hover {
+  height: 2.5rem;
+  width: 5rem;
+  border-radius: .6rem;
+  background-color: yellow;
+}
+
+@media screen and (max-width: 500px) {
+  .head {
+    display: flex;
+    height: 15%;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+  }
+}

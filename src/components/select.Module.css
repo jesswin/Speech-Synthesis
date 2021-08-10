@@ -1,0 +1,22 @@
+.select{
+    background-color: aquamarine;
+    color:#334d5c;
+    height: 1.8rem;
+    width: 9rem;
+    border-radius: .4rem;
+    outline: none;
+    border: 1px solid grey;
+    font-size: 0.8rem;
+}
+
+.select:hover {
+    height: 2rem;
+    width: 11rem;
+    border-radius: .6rem;
+    background-color: yellow;
+  }
+
+  .options{
+      background-color: #334d5c;
+      color: aliceblue;
+  }
