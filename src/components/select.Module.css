@@ -10,8 +10,9 @@
 }
 
 .select:hover {
-    height: 2rem;
-    width: 11rem;
+    transform: scale(1.2);
+    /* height: 2rem;
+    width: 11rem; */
     border-radius: .6rem;
     background-color: yellow;
   }

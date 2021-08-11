@@ -52,8 +52,9 @@
 }
 
 .main-head button:hover {
-  height: 2.5rem;
-  width: 5rem;
+  transform: scale(1.2);
+  /* height: 2.5rem;
+  width: 5rem; */
   border-radius: .6rem;
   background-color: yellow;
 }
